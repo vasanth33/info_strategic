@@ -1,0 +1,15 @@
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+user_strategic_plan,access.strategic.plan.user,model_strategic_plan,project.group_project_user,1,0,1,0
+manager_strategic_plan,access.strategic.plan.manager,model_strategic_plan,project.group_project_manager,1,1,1,1
+user_strategic_goal,access.strategic.goal.user,model_strategic_goal,project.group_project_user,1,0,1,0
+manager_strategic_goal,access.strategic.goal.manager,model_strategic_goal,project.group_project_manager,1,1,1,1
+user_operational_goal,access.strategic.goal.user,model_operational_goal,project.group_project_user,1,0,1,0
+manager_operational_goal,access.operational.goal.manager,model_operational_goal,project.group_project_manager,1,1,1,1
+user_task_payment,access.task.payment.user,model_task_payment,project.group_project_user,1,0,1,0
+manager_task_payment,access.task.payment.manager,model_task_payment,project.group_project_manager,1,1,1,1
+user_task_image,access.task.image.user,model_task_image,project.group_project_user,1,1,1,1
+manager_task_image,access.task.image.manager,model_task_image,project.group_project_manager,1,1,1,1
+user_project_image,access.project.image.user,model_project_image,project.group_project_user,1,1,1,1
+manager_project_image,access.project.image.manager,model_project_image,project.group_project_manager,1,1,1,1
+user_agent_contract,access.agent.contract.user,model_agent_contract,project.group_project_user,1,1,1,1
+manager_agent_contract,access.agent.contract.manager,model_agent_contract,project.group_project_manager,1,1,1,1

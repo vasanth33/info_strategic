@@ -1,0 +1,952 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* project_dashboard
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 11.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-08-03 06:57+0000\n"
+"PO-Revision-Date: 2018-08-03 12:45+0530\n"
+"Last-Translator: <>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: en\n"
+"X-Generator: Poedit 2.0.6\n"
+
+#. module: project_dashboard
+#: code:addons/project_dashboard/models/project_plan.py:247
+#, python-format
+msgid " is approved the payment request of task"
+msgstr " is approved the payment request of task"
+
+#. module: project_dashboard
+#: code:addons/project_dashboard/models/project_plan.py:287
+#, python-format
+msgid " is cancelled the payment request of Task : "
+msgstr " is cancelled the payment request of Task : "
+
+#. module: project_dashboard
+#: code:addons/project_dashboard/models/project_plan.py:227
+#, python-format
+msgid " is confirmed the Payment request"
+msgstr " is confirmed the Payment request"
+
+#. module: project_dashboard
+#: code:addons/project_dashboard/models/project_plan.py:370
+#, python-format
+msgid " is registered the payment of Task : "
+msgstr " is registered the payment of Task : "
+
+#. module: project_dashboard
+#: code:addons/project_dashboard/models/project_plan.py:267
+#, python-format
+msgid " is rejected the payment request of Task : "
+msgstr " is rejected the payment request of Task : "
+
+#. module: project_dashboard
+#: code:addons/project_dashboard/models/project_plan.py:328
+#, python-format
+msgid " is requesting to approve his/her payment of Task : "
+msgstr " is requesting to approve his/her payment of Task : "
+
+#. module: project_dashboard
+#: code:addons/project_dashboard/models/project_plan.py:307
+#, python-format
+msgid " is reset the payment request of task : "
+msgstr " is reset the payment request of task : "
+
+#. module: project_dashboard
+#: selection:project.project,year:0
+msgid "2000"
+msgstr "2000"
+
+#. module: project_dashboard
+#: selection:project.project,year:0
+msgid "2001"
+msgstr "2001"
+
+#. module: project_dashboard
+#: selection:project.project,year:0
+msgid "2002"
+msgstr "2002"
+
+#. module: project_dashboard
+#: selection:project.project,year:0
+msgid "2003"
+msgstr "2003"
+
+#. module: project_dashboard
+#: selection:project.project,year:0
+msgid "2004"
+msgstr "2004"
+
+#. module: project_dashboard
+#: selection:project.project,year:0
+msgid "2005"
+msgstr "2005"
+
+#. module: project_dashboard
+#: selection:project.project,year:0
+msgid "2006"
+msgstr "2006"
+
+#. module: project_dashboard
+#: selection:project.project,year:0
+msgid "2007"
+msgstr "2007"
+
+#. module: project_dashboard
+#: selection:project.project,year:0
+msgid "2008"
+msgstr "2008"
+
+#. module: project_dashboard
+#: selection:project.project,year:0
+msgid "2009"
+msgstr "2009"
+
+#. module: project_dashboard
+#: selection:project.project,year:0
+msgid "2010"
+msgstr "2010"
+
+#. module: project_dashboard
+#: selection:project.project,year:0
+msgid "2011"
+msgstr "2011"
+
+#. module: project_dashboard
+#: selection:project.project,year:0
+msgid "2012"
+msgstr "2012"
+
+#. module: project_dashboard
+#: selection:project.project,year:0
+msgid "2013"
+msgstr "2013"
+
+#. module: project_dashboard
+#: selection:project.project,year:0
+msgid "2014"
+msgstr "2014"
+
+#. module: project_dashboard
+#: selection:project.project,year:0
+msgid "2015"
+msgstr "2015"
+
+#. module: project_dashboard
+#: selection:project.project,year:0
+msgid "2016"
+msgstr "2016"
+
+#. module: project_dashboard
+#: selection:project.project,year:0
+msgid "2017"
+msgstr "2017"
+
+#. module: project_dashboard
+#: selection:project.project,year:0
+msgid "2018"
+msgstr "2018"
+
+#. module: project_dashboard
+#: model:ir.ui.view,arch_db:project_dashboard.project_project_form_view_inherit
+msgid "AED"
+msgstr "AED"
+
+#. module: project_dashboard
+#: model:ir.model.fields,field_description:project_dashboard.field_project_task_add_to_project
+#: model:ir.model.fields,field_description:project_dashboard.field_task_image_add_to_project
+msgid "Add To Project"
+msgstr "Add To Project"
+
+#. module: project_dashboard
+#: model:ir.ui.view,arch_db:project_dashboard.view_task_form2_form_view_inherit
+msgid "Add to project"
+msgstr "Add to project"
+
+#. module: project_dashboard
+#: model:ir.model.fields,field_description:project_dashboard.field_project_project_agency_id
+#: model:ir.model.fields,field_description:project_dashboard.field_project_project_agent_id
+#: model:ir.model.fields,field_description:project_dashboard.field_project_task_agency_id
+#: model:ir.model.fields,field_description:project_dashboard.field_task_payment_partner_id
+msgid "Agency"
+msgstr "Agency"
+
+#. module: project_dashboard
+#: model:ir.ui.view,arch_db:project_dashboard.agent_contract_form_view
+#: model:ir.ui.view,arch_db:project_dashboard.project_project_form_view_inherit
+msgid "Agent Contract"
+msgstr "Agent Contract"
+
+#. module: project_dashboard
+#: model:ir.model.fields,field_description:project_dashboard.field_task_payment_amount
+msgid "Amount"
+msgstr "الزمن"
+
+#. module: project_dashboard
+#: model:ir.ui.view,arch_db:project_dashboard.view_task_form2_form_view_inherit
+msgid "Approve"
+msgstr "Approve"
+
+#. module: project_dashboard
+#: model:ir.model.fields,field_description:project_dashboard.field_main_sector_assistance_id
+msgid "Assistance"
+msgstr "Assistance"
+
+#. module: project_dashboard
+#: model:ir.actions.act_window,name:project_dashboard.action_assistance_classification
+#: model:ir.model.fields,field_description:project_dashboard.field_project_project_assistance_classification_id
+#: model:ir.ui.menu,name:project_dashboard.assistance_classification_menu_activity
+#: model:ir.ui.view,arch_db:project_dashboard.assistance_classification_form_view
+#: model:ir.ui.view,arch_db:project_dashboard.assistance_classification_tree_view
+msgid "Assistance Classification"
+msgstr "Assistance Classification"
+
+#. module: project_dashboard
+#: model:ir.model.fields,field_description:project_dashboard.field_project_project_beneficiaries
+msgid "Beneficiaries"
+msgstr "Beneficiaries"
+
+#. module: project_dashboard
+#: model:ir.ui.view,arch_db:project_dashboard.view_task_form2_form_view_inherit
+#: selection:project.task,state:0
+msgid "Cancel"
+msgstr "Cancel"
+
+#. module: project_dashboard
+#: model:ir.model.fields,field_description:project_dashboard.field_project_project_completion_rate
+#: model:ir.model.fields,field_description:project_dashboard.field_project_task_completion_rate
+msgid "Completion rate (%)"
+msgstr "Completion rate (%)"
+
+#. module: project_dashboard
+#: model:ir.ui.view,arch_db:project_dashboard.view_task_form2_form_view_inherit
+msgid "Confirm Payment"
+msgstr "Confirm Payment"
+
+#. module: project_dashboard
+#: model:ir.model,name:project_dashboard.model_res_partner
+msgid "Contact"
+msgstr "جهة الاتصال"
+
+#. module: project_dashboard
+#: model:ir.model.fields,field_description:project_dashboard.field_agent_contract_contract_no
+#: model:ir.model.fields,field_description:project_dashboard.field_project_task_contract_no
+msgid "Contract No"
+msgstr "Contract No"
+
+#. module: project_dashboard
+#: model:ir.model.fields,field_description:project_dashboard.field_project_project_country_id
+msgid "Country"
+msgstr "دولة"
+
+#. module: project_dashboard
+#: model:ir.model.fields,field_description:project_dashboard.field_agent_contract_create_uid
+#: model:ir.model.fields,field_description:project_dashboard.field_assistance_classification_create_uid
+#: model:ir.model.fields,field_description:project_dashboard.field_foundation_category_create_uid
+#: model:ir.model.fields,field_description:project_dashboard.field_main_sector_create_uid
+#: model:ir.model.fields,field_description:project_dashboard.field_nature_assistance_create_uid
+#: model:ir.model.fields,field_description:project_dashboard.field_operating_purpose_create_uid
+#: model:ir.model.fields,field_description:project_dashboard.field_operational_goal_create_uid
+#: model:ir.model.fields,field_description:project_dashboard.field_project_goal_create_uid
+#: model:ir.model.fields,field_description:project_dashboard.field_project_image_create_uid
+#: model:ir.model.fields,field_description:project_dashboard.field_project_target_create_uid
+#: model:ir.model.fields,field_description:project_dashboard.field_project_type_create_uid
+#: model:ir.model.fields,field_description:project_dashboard.field_strategic_goal_create_uid
+#: model:ir.model.fields,field_description:project_dashboard.field_strategic_plan_create_uid
+#: model:ir.model.fields,field_description:project_dashboard.field_sub_sector_create_uid
+#: model:ir.model.fields,field_description:project_dashboard.field_task_image_create_uid
+#: model:ir.model.fields,field_description:project_dashboard.field_task_payment_create_uid
+msgid "Created by"
+msgstr "أنشئ بواسطة"
+
+#. module: project_dashboard
+#: model:ir.model.fields,field_description:project_dashboard.field_agent_contract_create_date
+#: model:ir.model.fields,field_description:project_dashboard.field_assistance_classification_create_date
+#: model:ir.model.fields,field_description:project_dashboard.field_foundation_category_create_date
+#: model:ir.model.fields,field_description:project_dashboard.field_main_sector_create_date
+#: model:ir.model.fields,field_description:project_dashboard.field_nature_assistance_create_date
+#: model:ir.model.fields,field_description:project_dashboard.field_operating_purpose_create_date
+#: model:ir.model.fields,field_description:project_dashboard.field_operational_goal_create_date
+#: model:ir.model.fields,field_description:project_dashboard.field_project_goal_create_date
+#: model:ir.model.fields,field_description:project_dashboard.field_project_image_create_date
+#: model:ir.model.fields,field_description:project_dashboard.field_project_target_create_date
+#: model:ir.model.fields,field_description:project_dashboard.field_project_type_create_date
+#: model:ir.model.fields,field_description:project_dashboard.field_strategic_goal_create_date
+#: model:ir.model.fields,field_description:project_dashboard.field_strategic_plan_create_date
+#: model:ir.model.fields,field_description:project_dashboard.field_sub_sector_create_date
+#: model:ir.model.fields,field_description:project_dashboard.field_task_image_create_date
+#: model:ir.model.fields,field_description:project_dashboard.field_task_payment_create_date
+msgid "Created on"
+msgstr "أنشئ في"
+
+#. module: project_dashboard
+#: model:ir.model.fields,field_description:project_dashboard.field_project_task_currency_id
+msgid "Currency"
+msgstr "العملة"
+
+#. module: project_dashboard
+#: model:ir.model.fields,field_description:project_dashboard.field_task_payment_date
+msgid "Date"
+msgstr "التاريخ"
+
+#. module: project_dashboard
+#: model:ir.model.fields,field_description:project_dashboard.field_project_project_department_id
+msgid "Department"
+msgstr "القسم"
+
+#. module: project_dashboard
+#: model:ir.model.fields,field_description:project_dashboard.field_operational_goal_description
+#: model:ir.model.fields,field_description:project_dashboard.field_strategic_goal_description
+#: model:ir.model.fields,field_description:project_dashboard.field_strategic_plan_description
+#: model:ir.model.fields,field_description:project_dashboard.field_task_payment_name
+#: model:ir.ui.view,arch_db:project_dashboard.project_project_form_view_inherit
+msgid "Description"
+msgstr "الوصف"
+
+#. module: project_dashboard
+#: model:ir.model.fields,field_description:project_dashboard.field_project_task_disable_post_button
+msgid "Disable Post Button"
+msgstr "Disable Post Button"
+
+#. module: project_dashboard
+#: model:ir.model.fields,field_description:project_dashboard.field_agent_contract_display_name
+#: model:ir.model.fields,field_description:project_dashboard.field_assistance_classification_display_name
+#: model:ir.model.fields,field_description:project_dashboard.field_foundation_category_display_name
+#: model:ir.model.fields,field_description:project_dashboard.field_main_sector_display_name
+#: model:ir.model.fields,field_description:project_dashboard.field_nature_assistance_display_name
+#: model:ir.model.fields,field_description:project_dashboard.field_operating_purpose_display_name
+#: model:ir.model.fields,field_description:project_dashboard.field_operational_goal_display_name
+#: model:ir.model.fields,field_description:project_dashboard.field_project_goal_display_name
+#: model:ir.model.fields,field_description:project_dashboard.field_project_image_display_name
+#: model:ir.model.fields,field_description:project_dashboard.field_project_target_display_name
+#: model:ir.model.fields,field_description:project_dashboard.field_project_type_display_name
+#: model:ir.model.fields,field_description:project_dashboard.field_strategic_goal_display_name
+#: model:ir.model.fields,field_description:project_dashboard.field_strategic_plan_display_name
+#: model:ir.model.fields,field_description:project_dashboard.field_sub_sector_display_name
+#: model:ir.model.fields,field_description:project_dashboard.field_task_image_display_name
+#: model:ir.model.fields,field_description:project_dashboard.field_task_payment_display_name
+msgid "Display Name"
+msgstr "الاسم المعروض"
+
+#. module: project_dashboard
+#: model:ir.model.fields,field_description:project_dashboard.field_project_project_donor_id
+msgid "Donor"
+msgstr "Donor"
+
+#. module: project_dashboard
+#: model:ir.model.fields,field_description:project_dashboard.field_project_project_out_budget
+msgid "Donor Budget"
+msgstr "Donor Budget"
+
+#. module: project_dashboard
+#: selection:project.task,state:0
+msgid "Draft"
+msgstr "Draft"
+
+#. module: project_dashboard
+#: model:ir.model.fields,field_description:project_dashboard.field_agent_contract_end_date
+#: model:ir.model.fields,field_description:project_dashboard.field_operational_goal_end_date
+#: model:ir.model.fields,field_description:project_dashboard.field_project_project_end_date
+#: model:ir.model.fields,field_description:project_dashboard.field_strategic_goal_end_date
+#: model:ir.model.fields,field_description:project_dashboard.field_strategic_plan_end_date
+msgid "End Date"
+msgstr "تاريخ الإنتهاء"
+
+#. module: project_dashboard
+#: selection:project.project,status:0
+msgid "Ended"
+msgstr "Ended"
+
+#. module: project_dashboard
+#: model:ir.model.fields,field_description:project_dashboard.field_project_project_financial_attitude
+msgid "Financial Attitude"
+msgstr "Financial Attitude"
+
+#. module: project_dashboard
+#: model:ir.model.fields,field_description:project_dashboard.field_project_project_in_budget
+msgid "Foundation Budget"
+msgstr "Foundation Budget"
+
+#. module: project_dashboard
+#: model:ir.actions.act_window,name:project_dashboard.action_foundation_category
+#: model:ir.model.fields,field_description:project_dashboard.field_project_project_foundation_category_id
+#: model:ir.ui.menu,name:project_dashboard.foundation_category_menu_activity
+#: model:ir.ui.view,arch_db:project_dashboard.foundation_category_form_view
+#: model:ir.ui.view,arch_db:project_dashboard.foundation_category_tree_view
+msgid "Foundation Category"
+msgstr "Foundation Category"
+
+#. module: project_dashboard
+#: model:ir.ui.view,arch_db:project_dashboard.project_project_form_view_inherit
+msgid "General"
+msgstr "General"
+
+#. module: project_dashboard
+#: model:ir.model.fields,field_description:project_dashboard.field_project_project_project_goal_id
+#: model:ir.model.fields,field_description:project_dashboard.field_project_target_goal_id
+msgid "Goal"
+msgstr "Goal"
+
+#. module: project_dashboard
+#: model:ir.model.fields,field_description:project_dashboard.field_agent_contract_id
+#: model:ir.model.fields,field_description:project_dashboard.field_assistance_classification_id
+#: model:ir.model.fields,field_description:project_dashboard.field_foundation_category_id
+#: model:ir.model.fields,field_description:project_dashboard.field_main_sector_id
+#: model:ir.model.fields,field_description:project_dashboard.field_nature_assistance_id
+#: model:ir.model.fields,field_description:project_dashboard.field_operating_purpose_id
+#: model:ir.model.fields,field_description:project_dashboard.field_operational_goal_id
+#: model:ir.model.fields,field_description:project_dashboard.field_project_goal_id
+#: model:ir.model.fields,field_description:project_dashboard.field_project_image_id
+#: model:ir.model.fields,field_description:project_dashboard.field_project_target_id
+#: model:ir.model.fields,field_description:project_dashboard.field_project_type_id
+#: model:ir.model.fields,field_description:project_dashboard.field_strategic_goal_id
+#: model:ir.model.fields,field_description:project_dashboard.field_strategic_plan_id
+#: model:ir.model.fields,field_description:project_dashboard.field_sub_sector_id
+#: model:ir.model.fields,field_description:project_dashboard.field_task_image_id
+#: model:ir.model.fields,field_description:project_dashboard.field_task_payment_id
+msgid "ID"
+msgstr "المعرف"
+
+#. module: project_dashboard
+#: model:ir.model.fields,field_description:project_dashboard.field_project_image_image
+#: model:ir.model.fields,field_description:project_dashboard.field_task_image_image
+msgid "Image"
+msgstr "الصورة"
+
+#. module: project_dashboard
+#: model:ir.model.fields,field_description:project_dashboard.field_project_project_image_ids
+#: model:ir.model.fields,field_description:project_dashboard.field_project_task_image_ids
+msgid "Images"
+msgstr "Images"
+
+#. module: project_dashboard
+#: model:ir.model.fields,field_description:project_dashboard.field_project_task_initial_cost
+msgid "Initial Cost"
+msgstr "Initial Cost"
+
+#. module: project_dashboard
+#: code:addons/project_dashboard/models/project_plan.py:405
+#, python-format
+msgid "Initial cost is greater ten Total Budget.You can give maximum %s as Initial Cost."
+msgstr "Initial cost is greater ten Total Budget.You can give maximum %s as Initial Cost."
+
+#. module: project_dashboard
+#: model:ir.model.fields,field_description:project_dashboard.field_res_partner_is_agency
+#: model:ir.model.fields,field_description:project_dashboard.field_res_users_is_agency
+msgid "Is Agency"
+msgstr "Is Agency"
+
+#. module: project_dashboard
+#: model:ir.model.fields,field_description:project_dashboard.field_res_partner_is_donor
+#: model:ir.model.fields,field_description:project_dashboard.field_res_users_is_donor
+msgid "Is Donor"
+msgstr "Is Donor"
+
+#. module: project_dashboard
+#: model:ir.model.fields,field_description:project_dashboard.field_agent_contract___last_update
+#: model:ir.model.fields,field_description:project_dashboard.field_assistance_classification___last_update
+#: model:ir.model.fields,field_description:project_dashboard.field_foundation_category___last_update
+#: model:ir.model.fields,field_description:project_dashboard.field_main_sector___last_update
+#: model:ir.model.fields,field_description:project_dashboard.field_nature_assistance___last_update
+#: model:ir.model.fields,field_description:project_dashboard.field_operating_purpose___last_update
+#: model:ir.model.fields,field_description:project_dashboard.field_operational_goal___last_update
+#: model:ir.model.fields,field_description:project_dashboard.field_project_goal___last_update
+#: model:ir.model.fields,field_description:project_dashboard.field_project_image___last_update
+#: model:ir.model.fields,field_description:project_dashboard.field_project_target___last_update
+#: model:ir.model.fields,field_description:project_dashboard.field_project_type___last_update
+#: model:ir.model.fields,field_description:project_dashboard.field_strategic_goal___last_update
+#: model:ir.model.fields,field_description:project_dashboard.field_strategic_plan___last_update
+#: model:ir.model.fields,field_description:project_dashboard.field_sub_sector___last_update
+#: model:ir.model.fields,field_description:project_dashboard.field_task_image___last_update
+#: model:ir.model.fields,field_description:project_dashboard.field_task_payment___last_update
+msgid "Last Modified on"
+msgstr "آخر تعديل في"
+
+#. module: project_dashboard
+#: model:ir.model.fields,field_description:project_dashboard.field_agent_contract_write_uid
+#: model:ir.model.fields,field_description:project_dashboard.field_assistance_classification_write_uid
+#: model:ir.model.fields,field_description:project_dashboard.field_foundation_category_write_uid
+#: model:ir.model.fields,field_description:project_dashboard.field_main_sector_write_uid
+#: model:ir.model.fields,field_description:project_dashboard.field_nature_assistance_write_uid
+#: model:ir.model.fields,field_description:project_dashboard.field_operating_purpose_write_uid
+#: model:ir.model.fields,field_description:project_dashboard.field_operational_goal_write_uid
+#: model:ir.model.fields,field_description:project_dashboard.field_project_goal_write_uid
+#: model:ir.model.fields,field_description:project_dashboard.field_project_image_write_uid
+#: model:ir.model.fields,field_description:project_dashboard.field_project_target_write_uid
+#: model:ir.model.fields,field_description:project_dashboard.field_project_type_write_uid
+#: model:ir.model.fields,field_description:project_dashboard.field_strategic_goal_write_uid
+#: model:ir.model.fields,field_description:project_dashboard.field_strategic_plan_write_uid
+#: model:ir.model.fields,field_description:project_dashboard.field_sub_sector_write_uid
+#: model:ir.model.fields,field_description:project_dashboard.field_task_image_write_uid
+#: model:ir.model.fields,field_description:project_dashboard.field_task_payment_write_uid
+msgid "Last Updated by"
+msgstr "آخر تحديث بواسطة"
+
+#. module: project_dashboard
+#: model:ir.model.fields,field_description:project_dashboard.field_agent_contract_write_date
+#: model:ir.model.fields,field_description:project_dashboard.field_assistance_classification_write_date
+#: model:ir.model.fields,field_description:project_dashboard.field_foundation_category_write_date
+#: model:ir.model.fields,field_description:project_dashboard.field_main_sector_write_date
+#: model:ir.model.fields,field_description:project_dashboard.field_nature_assistance_write_date
+#: model:ir.model.fields,field_description:project_dashboard.field_operating_purpose_write_date
+#: model:ir.model.fields,field_description:project_dashboard.field_operational_goal_write_date
+#: model:ir.model.fields,field_description:project_dashboard.field_project_goal_write_date
+#: model:ir.model.fields,field_description:project_dashboard.field_project_image_write_date
+#: model:ir.model.fields,field_description:project_dashboard.field_project_target_write_date
+#: model:ir.model.fields,field_description:project_dashboard.field_project_type_write_date
+#: model:ir.model.fields,field_description:project_dashboard.field_strategic_goal_write_date
+#: model:ir.model.fields,field_description:project_dashboard.field_strategic_plan_write_date
+#: model:ir.model.fields,field_description:project_dashboard.field_sub_sector_write_date
+#: model:ir.model.fields,field_description:project_dashboard.field_task_image_write_date
+#: model:ir.model.fields,field_description:project_dashboard.field_task_payment_write_date
+msgid "Last Updated on"
+msgstr "آخر تحديث في"
+
+#. module: project_dashboard
+#: model:ir.model.fields,field_description:project_dashboard.field_project_project_legal_attitude
+msgid "Legal Attitude"
+msgstr "Legal Attitude"
+
+#. module: project_dashboard
+#: model:ir.model.fields,field_description:project_dashboard.field_project_project_location_description
+msgid "Location Description"
+msgstr "Location Description"
+
+#. module: project_dashboard
+#: model:ir.actions.act_window,name:project_dashboard.action_main_sector
+#: model:ir.model.fields,field_description:project_dashboard.field_project_project_main_sector_id
+#: model:ir.model.fields,field_description:project_dashboard.field_sub_sector_main_sector_id
+#: model:ir.ui.menu,name:project_dashboard.main_sector_menu_activity
+#: model:ir.ui.view,arch_db:project_dashboard.main_sector_form_view
+#: model:ir.ui.view,arch_db:project_dashboard.main_sector_tree_view
+msgid "Main Sector"
+msgstr "Main Sector"
+
+#. module: project_dashboard
+#: model:ir.model.fields,field_description:project_dashboard.field_project_project_google_map_partner
+msgid "Map"
+msgstr "Map"
+
+#. module: project_dashboard
+#: model:ir.model.fields,field_description:project_dashboard.field_project_project_media_plan
+msgid "Media Plan"
+msgstr "Media Plan"
+
+#. module: project_dashboard
+#: model:ir.model.fields,field_description:project_dashboard.field_assistance_classification_name
+#: model:ir.model.fields,field_description:project_dashboard.field_foundation_category_name
+#: model:ir.model.fields,field_description:project_dashboard.field_main_sector_name
+#: model:ir.model.fields,field_description:project_dashboard.field_nature_assistance_name
+#: model:ir.model.fields,field_description:project_dashboard.field_operating_purpose_name
+#: model:ir.model.fields,field_description:project_dashboard.field_operational_goal_name
+#: model:ir.model.fields,field_description:project_dashboard.field_project_goal_name
+#: model:ir.model.fields,field_description:project_dashboard.field_project_target_name
+#: model:ir.model.fields,field_description:project_dashboard.field_project_type_name
+#: model:ir.model.fields,field_description:project_dashboard.field_strategic_goal_name
+#: model:ir.model.fields,field_description:project_dashboard.field_strategic_plan_name
+#: model:ir.model.fields,field_description:project_dashboard.field_sub_sector_name
+msgid "Name"
+msgstr "الاسم"
+
+#. module: project_dashboard
+#: model:ir.actions.act_window,name:project_dashboard.action_nature_assistance
+#: model:ir.model.fields,field_description:project_dashboard.field_project_project_nature_assistance_id
+#: model:ir.ui.menu,name:project_dashboard.nature_assistance_menu_activity
+#: model:ir.ui.view,arch_db:project_dashboard.nature_assistance_form_view
+#: model:ir.ui.view,arch_db:project_dashboard.nature_assistance_tree_view
+msgid "Nature Assistance"
+msgstr "Nature Assistance"
+
+#. module: project_dashboard
+#: selection:project.project,status:0
+msgid "New"
+msgstr "New"
+
+#. module: project_dashboard
+#: model:ir.model.fields,field_description:project_dashboard.field_strategic_goal_operational_goal_count
+#: model:ir.model.fields,field_description:project_dashboard.field_strategic_plan_strategic_goal_count
+msgid "Number of documents attached"
+msgstr "Number of documents attached"
+
+#. module: project_dashboard
+#: selection:project.project,status:0
+msgid "On Progress"
+msgstr "On Progress"
+
+#. module: project_dashboard
+#: model:ir.actions.act_window,name:project_dashboard.action_operating_purpose
+#: model:ir.model.fields,field_description:project_dashboard.field_project_project_operating_purpose_id
+#: model:ir.ui.menu,name:project_dashboard.operating_purpose_menu_activity
+#: model:ir.ui.view,arch_db:project_dashboard.operating_purpose_form_view
+#: model:ir.ui.view,arch_db:project_dashboard.operating_purpose_tree_view
+msgid "Operating Purpose"
+msgstr "Operating Purpose"
+
+#. module: project_dashboard
+#: model:ir.actions.act_window,name:project_dashboard.action_operational_goal
+#: model:ir.model.fields,field_description:project_dashboard.field_project_project_operational_goal_id
+#: model:ir.ui.menu,name:project_dashboard.project_operational_goal_menu_activity
+#: model:ir.ui.view,arch_db:project_dashboard.operational_goal_form_view
+#: model:ir.ui.view,arch_db:project_dashboard.operational_goal_tree_view
+msgid "Operational Goal"
+msgstr "Operational Goal"
+
+#. module: project_dashboard
+#: code:addons/project_dashboard/models/project_plan.py:59
+#: model:ir.ui.view,arch_db:project_dashboard.strategic_goal_form_view
+#, python-format
+msgid "Operational Goals"
+msgstr "Operational Goals"
+
+#. module: project_dashboard
+#: selection:project.task,state:0
+msgid "Paid"
+msgstr "Paid"
+
+#. module: project_dashboard
+#: selection:project.task,state:0
+msgid "Partial Payment"
+msgstr "Partial Payment"
+
+#. module: project_dashboard
+#: selection:project.task,state:0
+msgid "Payment Approved"
+msgstr "Payment Approved"
+
+#. module: project_dashboard
+#: selection:project.task,state:0
+msgid "Payment Confirmed"
+msgstr "Payment Confirmed"
+
+#. module: project_dashboard
+#: model:ir.model.fields,field_description:project_dashboard.field_project_task_journal_id
+msgid "Payment Journal"
+msgstr "يومية السداد"
+
+#. module: project_dashboard
+#: model:ir.model.fields,field_description:project_dashboard.field_project_task_payment_line_ids
+msgid "Payment Line"
+msgstr "Payment Line"
+
+#. module: project_dashboard
+#: model:ir.model.fields,field_description:project_dashboard.field_project_task_payment_method_id
+msgid "Payment Method Type"
+msgstr "طريقة البيع"
+
+#. module: project_dashboard
+#: selection:project.task,state:0
+msgid "Payment Requested"
+msgstr "Payment Requested"
+
+#. module: project_dashboard
+#: code:addons/project_dashboard/models/project_plan.py:338
+#, python-format
+msgid "Payment details are empty !!!. Please enter the payment amount."
+msgstr "Payment details are empty !!!. Please enter the payment amount."
+
+#. module: project_dashboard
+#: model:ir.model.fields,field_description:project_dashboard.field_project_task_total_payment
+#: model:ir.ui.view,arch_db:project_dashboard.view_task_form2_form_view_inherit
+msgid "Payments"
+msgstr "المدفوعات"
+
+#. module: project_dashboard
+#: model:ir.model.fields,field_description:project_dashboard.field_project_project_contract_ids
+msgid "Phases"
+msgstr "Phases"
+
+#. module: project_dashboard
+#: model:ir.ui.view,arch_db:project_dashboard.project_project_form_view_inherit
+#: model:ir.ui.view,arch_db:project_dashboard.view_task_form2_form_view_inherit
+msgid "Photos and Videos"
+msgstr "Photos and Videos"
+
+#. module: project_dashboard
+#: model:ir.ui.view,arch_db:project_dashboard.project_project_form_view_inherit
+#: model:ir.ui.view,arch_db:project_dashboard.view_task_form2_form_view_inherit
+msgid "Product Images"
+msgstr "Product Images"
+
+#. module: project_dashboard
+#: model:ir.model,name:project_dashboard.model_project_project
+#: model:ir.model.fields,field_description:project_dashboard.field_agent_contract_project_id
+#: model:ir.model.fields,field_description:project_dashboard.field_project_image_project_id
+#: model:ir.model.fields,field_description:project_dashboard.field_task_image_project_id
+msgid "Project"
+msgstr "المشروع"
+
+#. module: project_dashboard
+#: model:ir.model.fields,field_description:project_dashboard.field_project_project_project_completion
+msgid "Project Completion (%)"
+msgstr "Project Completion (%)"
+
+#. module: project_dashboard
+#: model:res.groups,name:project_dashboard.group_project_director
+msgid "Project Director"
+msgstr "Project Director"
+
+#. module: project_dashboard
+#: model:ir.model.fields,field_description:project_dashboard.field_project_project_description
+msgid "Project Explain"
+msgstr "Project Explain"
+
+#. module: project_dashboard
+#: model:ir.actions.act_window,name:project_dashboard.action_project_goal
+#: model:ir.ui.menu,name:project_dashboard.project_goal_menu_activity
+#: model:ir.ui.view,arch_db:project_dashboard.project_goal_form_view
+#: model:ir.ui.view,arch_db:project_dashboard.project_goal_tree_view
+msgid "Project Goal"
+msgstr "Project Goal"
+
+#. module: project_dashboard
+#: model:ir.ui.view,arch_db:project_dashboard.project_image_form_view
+msgid "Project Image"
+msgstr "Project Image"
+
+#. module: project_dashboard
+#: model:ir.model.fields,field_description:project_dashboard.field_project_project_project_number
+msgid "Project Number"
+msgstr "Project Number"
+
+#. module: project_dashboard
+#: model:ir.model.fields,field_description:project_dashboard.field_project_project_status
+msgid "Project Status"
+msgstr "Project Status"
+
+#. module: project_dashboard
+#: model:ir.actions.act_window,name:project_dashboard.action_project_target
+#: model:ir.ui.menu,name:project_dashboard.project_target_menu_activity
+#: model:ir.ui.view,arch_db:project_dashboard.project_target_form_view
+msgid "Project Target"
+msgstr "Project Target"
+
+#. module: project_dashboard
+#: model:ir.actions.act_window,name:project_dashboard.action_project_type
+#: model:ir.model.fields,field_description:project_dashboard.field_project_project_project_type_id
+#: model:ir.ui.menu,name:project_dashboard.project_type_menu_activity
+#: model:ir.ui.view,arch_db:project_dashboard.project_type_form_view
+#: model:ir.ui.view,arch_db:project_dashboard.project_type_tree_view
+msgid "Project Type"
+msgstr "Project Type"
+
+#. module: project_dashboard
+#: model:ir.ui.view,arch_db:project_dashboard.project_target_tree_view
+msgid "Project target"
+msgstr "Project target"
+
+#. module: project_dashboard
+#: model:ir.ui.view,arch_db:project_dashboard.view_task_form2_form_view_inherit
+msgid "Register Payment"
+msgstr "Register Payment"
+
+#. module: project_dashboard
+#: model:ir.ui.view,arch_db:project_dashboard.view_task_form2_form_view_inherit
+msgid "Reject"
+msgstr "Reject"
+
+#. module: project_dashboard
+#: selection:project.task,state:0
+msgid "Rejected"
+msgstr "Rejected"
+
+#. module: project_dashboard
+#: model:ir.model.fields,field_description:project_dashboard.field_project_task_remaining_payments
+msgid "Remaining"
+msgstr "Remaining"
+
+#. module: project_dashboard
+#: model:ir.ui.view,arch_db:project_dashboard.view_task_form2_form_view_inherit
+msgid "Request payment"
+msgstr "Request payment"
+
+#. module: project_dashboard
+#: model:ir.ui.view,arch_db:project_dashboard.view_task_form2_form_view_inherit
+msgid "Reset to Draft"
+msgstr "Reset to Draft"
+
+#. module: project_dashboard
+#: model:ir.model.fields,field_description:project_dashboard.field_agent_contract_start_date
+#: model:ir.model.fields,field_description:project_dashboard.field_operational_goal_start_date
+#: model:ir.model.fields,field_description:project_dashboard.field_project_project_start_date
+#: model:ir.model.fields,field_description:project_dashboard.field_strategic_goal_start_date
+#: model:ir.model.fields,field_description:project_dashboard.field_strategic_plan_start_date
+msgid "Start Date"
+msgstr "تاريخ البدء"
+
+#. module: project_dashboard
+#: model:ir.model.fields,field_description:project_dashboard.field_project_task_state
+msgid "State"
+msgstr "المحافظة"
+
+#. module: project_dashboard
+#: model:ir.actions.act_window,name:project_dashboard.action_strategic_goal
+#: model:ir.model.fields,field_description:project_dashboard.field_operational_goal_strategic_goal_id
+#: model:ir.model.fields,field_description:project_dashboard.field_project_project_strategic_goal_id
+#: model:ir.ui.menu,name:project_dashboard.project_strategic_goal_menu_activity
+#: model:ir.ui.view,arch_db:project_dashboard.strategic_goal_form_view
+#: model:ir.ui.view,arch_db:project_dashboard.strategic_goal_tree_view
+msgid "Strategic Goal"
+msgstr "Strategic Goal"
+
+#. module: project_dashboard
+#: code:addons/project_dashboard/models/project_plan.py:28
+#: model:ir.ui.view,arch_db:project_dashboard.strategic_plan_form_view
+#, python-format
+msgid "Strategic Goals"
+msgstr "Strategic Goals"
+
+#. module: project_dashboard
+#: model:ir.actions.act_window,name:project_dashboard.action_strategic_plan
+#: model:ir.model.fields,field_description:project_dashboard.field_project_project_strategic_plan_id
+#: model:ir.model.fields,field_description:project_dashboard.field_strategic_goal_strategic_plan_id
+#: model:ir.ui.menu,name:project_dashboard.project_strategic_plan_menu_activity
+#: model:ir.ui.view,arch_db:project_dashboard.strategic_plan_form_view
+#: model:ir.ui.view,arch_db:project_dashboard.strategic_plan_tree_view
+msgid "Strategic Plan"
+msgstr "Strategic Plan"
+
+#. module: project_dashboard
+#: model:ir.actions.act_window,name:project_dashboard.action_sub_sector
+#: model:ir.model.fields,field_description:project_dashboard.field_project_project_sub_sector_id
+#: model:ir.ui.menu,name:project_dashboard.sub_sector_menu_activity
+#: model:ir.ui.view,arch_db:project_dashboard.sub_sector_form_view
+#: model:ir.ui.view,arch_db:project_dashboard.sub_sector_tree_view
+msgid "Sub Sector"
+msgstr "Sub Sector"
+
+#. module: project_dashboard
+#: model:ir.model.fields,field_description:project_dashboard.field_project_project_project_target_id
+msgid "Target"
+msgstr "Target"
+
+#. module: project_dashboard
+#: model:ir.model,name:project_dashboard.model_project_task
+#: model:ir.model.fields,field_description:project_dashboard.field_agent_contract_task_id
+#: model:ir.model.fields,field_description:project_dashboard.field_project_image_task_id
+#: model:ir.model.fields,field_description:project_dashboard.field_task_image_task_id
+#: model:ir.model.fields,field_description:project_dashboard.field_task_payment_task_id
+msgid "Task"
+msgstr "Task"
+
+#. module: project_dashboard
+#: model:ir.ui.view,arch_db:project_dashboard.task_image_form_view
+msgid "Task Image"
+msgstr "Task Image"
+
+#. module: project_dashboard
+#: model:ir.ui.view,arch_db:project_dashboard.task_payment_form_view
+#: model:ir.ui.view,arch_db:project_dashboard.task_payment_tree_view
+msgid "Task Payment"
+msgstr "Task Payment"
+
+#. module: project_dashboard
+#: model:ir.model.fields,field_description:project_dashboard.field_project_project_total_budget
+msgid "Total Budget"
+msgstr "Total Budget"
+
+#. module: project_dashboard
+#: code:addons/project_dashboard/models/project_plan.py:398
+#, python-format
+msgid "Total task weight cannot be greater than maximum.You can give maximum %s as Task Weight."
+msgstr "Total task weight cannot be greater than maximum.You can give maximum %s as Task Weight."
+
+#. module: project_dashboard
+#: model:ir.model.fields,field_description:project_dashboard.field_task_image_url
+msgid "URL"
+msgstr "رابط ويب"
+
+#. module: project_dashboard
+#: model:ir.model.fields,field_description:project_dashboard.field_project_project_year
+msgid "Year"
+msgstr "Year"
+
+#. module: project_dashboard
+#: model:ir.model,name:project_dashboard.model_agent_contract
+msgid "agent.contract"
+msgstr "agent.contract"
+
+#. module: project_dashboard
+#: model:ir.model,name:project_dashboard.model_assistance_classification
+msgid "assistance.classification"
+msgstr "assistance.classification"
+
+#. module: project_dashboard
+#: model:ir.model,name:project_dashboard.model_foundation_category
+msgid "foundation.category"
+msgstr "foundation.category"
+
+#. module: project_dashboard
+#: model:ir.model,name:project_dashboard.model_main_sector
+msgid "main.sector"
+msgstr "main.sector"
+
+#. module: project_dashboard
+#: model:ir.model,name:project_dashboard.model_nature_assistance
+msgid "nature.assistance"
+msgstr "nature.assistance"
+
+#. module: project_dashboard
+#: model:ir.model,name:project_dashboard.model_operating_purpose
+msgid "operating.purpose"
+msgstr "operating.purpose"
+
+#. module: project_dashboard
+#: model:ir.model,name:project_dashboard.model_operational_goal
+msgid "operational.goal"
+msgstr "operational.goal"
+
+#. module: project_dashboard
+#: model:ir.model,name:project_dashboard.model_project_goal
+msgid "project.goal"
+msgstr "project.goal"
+
+#. module: project_dashboard
+#: model:ir.model,name:project_dashboard.model_project_image
+msgid "project.image"
+msgstr "project.image"
+
+#. module: project_dashboard
+#: model:ir.model,name:project_dashboard.model_project_target
+msgid "project.target"
+msgstr "project.target"
+
+#. module: project_dashboard
+#: model:ir.model,name:project_dashboard.model_project_type
+msgid "project.type"
+msgstr "project.type"
+
+#. module: project_dashboard
+#: model:ir.model,name:project_dashboard.model_strategic_goal
+msgid "strategic.goal"
+msgstr "strategic.goal"
+
+#. module: project_dashboard
+#: model:ir.model,name:project_dashboard.model_strategic_plan
+msgid "strategic.plan"
+msgstr "strategic.plan"
+
+#. module: project_dashboard
+#: model:ir.model,name:project_dashboard.model_sub_sector
+msgid "sub.sector"
+msgstr "sub.sector"
+
+#. module: project_dashboard
+#: model:ir.model.fields,field_description:project_dashboard.field_project_task_task_weight
+msgid "task Weight (%)"
+msgstr "task Weight (%)"
+
+#. module: project_dashboard
+#: model:ir.model,name:project_dashboard.model_task_image
+msgid "task.image"
+msgstr "task.image"
+
+#. module: project_dashboard
+#: model:ir.model,name:project_dashboard.model_task_payment
+msgid "task.payment"
+msgstr "task.payment"
