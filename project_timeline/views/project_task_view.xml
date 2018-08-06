@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright 2016-2017 Tecnativa - Pedro M. Baeza
+     Copyright 2017 Tecnativa - Carlos Dauden
+     Copyright 2017 Doscaal - Alexandre Moreau
+     License AGPL-3.0 or later (http://www.gnu.org/licenses/agpl.html). -->
+
+<odoo>
+
+    <record id="project_task_timeline" model="ir.ui.view">
+        <field name="model">project.task</field>
+        <field name="type">timeline</field>
+        <field name="arch" type="xml">
+            <timeline date_start="date_start"
+                      date_stop="date_end"
+                      default_group_by="project_id"
+                      event_open_popup="true"
+                      zoomkey="ctrlkey"
+                      colors="#ec7063: user_id == false;
+                              #0000FF: task_stage_color == blue;
+                              #008000: task_stage_color == green;
+                              #FF0000: task_stage_color == red;"
+            />
+        </field>
+    </record>
+
+    <record id="project.action_view_task" model="ir.actions.act_window">
+        <field name="view_mode">kanban,tree,form,calendar,timeline,pivot,graph</field>
+    </record>
+
+    <record id="project.act_project_project_2_project_task_all" model="ir.actions.act_window">
+        <field name="view_mode">kanban,tree,form,calendar,timeline,pivot,graph</field>
+    </record>
+
+    <record id="view_task_form2" model="ir.ui.view">
+        <field name="name">project.task.form</field>
+        <field name="model">project.task</field>
+        <field name="inherit_id" ref="project.view_task_form2"/>
+        <field name="arch" type="xml">
+            <xpath expr="//field[@name='date_assign']" position="before">
+                <field name="date_start"/>
+                <field name="date_end"/>
+                <field name="task_stage_color"/>
+            </xpath>
+        </field>
+    </record>
+
+    <record id="edit_project_inherit" model="ir.ui.view">
+        <field name="name">project.project.form</field>
+        <field name="model">project.project</field>
+        <field name="inherit_id" ref="project.edit_project"/>
+        <field name="arch" type="xml">
+            <xpath expr="//field[@name='partner_id']" position="after">
+                <field name="task_stage_color"/>
+            </xpath>
+        </field>
+    </record>
+    
+    <record id="add_color_to_stage" model="ir.ui.view">
+        <field name="name">project task type</field>
+        <field name="model">project.task.type</field>
+        <field name="inherit_id" ref="project.task_type_edit"/>
+        <field name="arch" type="xml">
+            <xpath expr="//field[@name='mail_template_id']" position="after">
+                <field name="stage_color"/>
+            </xpath>
+        </field>
+    </record>
+
+
+    
+
+</odoo>

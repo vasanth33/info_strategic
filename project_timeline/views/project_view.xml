@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright 2016-2017 Tecnativa - Pedro M. Baeza
+     Copyright 2017 Tecnativa - Carlos Dauden
+     Copyright 2017 Doscaal - Alexandre Moreau
+     License AGPL-3.0 or later (http://www.gnu.org/licenses/agpl.html). -->
+
+<odoo>
+
+    <record id="project_timeline" model="ir.ui.view">
+        <field name="model">project.project</field>
+        <field name="type">timeline</field>
+        <field name="arch" type="xml">
+            <timeline date_start="start_date"
+                      date_stop="end_date"
+                      default_group_by="id"
+                      event_open_popup="true"
+                      zoomkey="ctrlkey"
+                      colors="#ec7063: strategic_plan_id == false;
+                              #0000FF: task_stage_color == blue;
+                              #008000: task_stage_color == green;
+                              #FF0000: task_stage_color == red;"
+            />
+        </field>
+    </record>
+
+    <record id="project.open_view_project_all" model="ir.actions.act_window">
+        <field name="view_mode">kanban,tree,form,timeline</field>
+    </record>
+    
+        <record id="project.open_view_project_all_config" model="ir.actions.act_window">
+        <field name="view_mode">kanban,tree,form,timeline</field>
+    </record>
+
+
+</odoo>
